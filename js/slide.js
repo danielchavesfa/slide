@@ -179,7 +179,6 @@ export class SlideNav extends Slide {
   }
 
   activeControlItem() {
-    console.log(this.index.active);
     this.controlArray.forEach((item) => item.classList.remove(this.activeClass));
     this.controlArray[this.index.active].classList.add(this.activeClass);
   }
